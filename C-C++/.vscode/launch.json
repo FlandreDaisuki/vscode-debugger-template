@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
-    "configurations": [
-        {
+    "configurations": [{
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
@@ -13,26 +12,11 @@
             "externalConsole": true,
             "linux": {
                 "MIMode": "lldb",
-                "setupCommands": [
-                    {
-                        "description": "Enable pretty-printing for lldb",
-                        "text": "-enable-pretty-printing",
-                        "ignoreFailures": true
-                    }
-                ]
-            },
-            "osx": {
-                "MIMode": "lldb"
-            },
-            "windows": {
-                "MIMode": "lldb",
-                "setupCommands": [
-                    {
-                        "description": "Enable pretty-printing for lldb",
-                        "text": "-enable-pretty-printing",
-                        "ignoreFailures": true
-                    }
-                ]
+                "setupCommands": [{
+                    "description": "Enable pretty-printing for lldb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }]
             },
             "preLaunchTask": "Build C++"
         },
@@ -44,26 +28,11 @@
             "processId": "${command:pickProcess}",
             "linux": {
                 "MIMode": "lldb",
-                "setupCommands": [
-                    {
-                        "description": "Enable pretty-printing for lldb",
-                        "text": "-enable-pretty-printing",
-                        "ignoreFailures": true
-                    }
-                ]
-            },
-            "osx": {
-                "MIMode": "lldb"
-            },
-            "windows": {
-                "MIMode": "lldb",
-                "setupCommands": [
-                    {
-                        "description": "Enable pretty-printing for lldb",
-                        "text": "-enable-pretty-printing",
-                        "ignoreFailures": true
-                    }
-                ]
+                "setupCommands": [{
+                    "description": "Enable pretty-printing for lldb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }]
             }
         }
     ]
