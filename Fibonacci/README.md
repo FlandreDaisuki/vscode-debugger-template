@@ -1,6 +1,6 @@
 # Video demo
 
-[Video](https://youtu.be/Ok4p1XgZGEY)
+[![](./thumb.png)](https://youtu.be/Ok4p1XgZGEY)
 
 1. 點**除錯**圖示, 選組態**GDB**
 2. 改要除錯的`program`，這邊設定成專案資料夾下的`a.out`
