@@ -1,4 +1,4 @@
-# VSCode Debugging Template
+# VSCode Debugger Template
 
 **Version: v1.10**
 
